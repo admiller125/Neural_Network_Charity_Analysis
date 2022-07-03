@@ -32,7 +32,7 @@ Data Preprocessing
 
 Compiling, Training, and Evaluating the Model
 
-1.How many neurons, layers, and activation functions did you select for your neural network model, and why?
+1. How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
 * In the initial neural network I used two hidden layers with the ReLU function and used 90 neurons in the first hidden layer and 45 in the second hidden layer as seen below.
 
@@ -50,12 +50,12 @@ ReLu function was used because it tends to be proficient at looking at positive 
 * I increased the number of neurons in the first two layers to attempt to increase the accuracy of the model. I was unable to improve the model overall a significant amount, but did receive higher accuracy values in individual epochs.
 
 
-2.Were you able to achieve the target model performance?
+2. Were you able to achieve the target model performance?
 
 * Unfortunately even after attempted optimization I was unable to meet an accuracy of 75%.
 
 
-3.What steps did you take to try and increase model performance?
+3. What steps did you take to try and increase model performance?
 
 * First, I attempted to improve the model by binning the income amounts for the charities. I figured that it would be likely that charities that already have an income above $1 Million would be far more likely to meet their goals than 
 charities that were not as well funded. I decided as a result to group all of these charities together because the model would consider these to be belonging to the category of the range rather than an analog value removing this information
